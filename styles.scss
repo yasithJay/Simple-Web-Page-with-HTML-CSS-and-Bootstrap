@@ -95,8 +95,9 @@ p.jumbotron-inner-text {
 
 
 .foot-link{
+    @extend .active;
     text-decoration: none;
-    color: white;
+
 }
 
 .footi{
