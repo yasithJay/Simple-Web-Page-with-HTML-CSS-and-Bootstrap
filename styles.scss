@@ -1,0 +1,175 @@
+
+
+$bg-color : black;
+$body-font-color : white;
+$nav-link-color :rgb(80, 80, 80);
+$nav-link-hover-color : white;
+$navbar-brand-color : white;
+$horizontal-line-color :white;
+
+@media (max-width : 500px){
+    #carouselExampleIndicators {
+        display: none;
+    }
+}
+
+body {
+    background-image: url(/images/ocean.jpg);
+    background-attachment: fixed;
+    color: $body-font-color;
+}
+
+
+.navbar{
+    background-color: rgb(2, 2, 2);
+}
+.navbar-brand {
+    color: $navbar-brand-color;
+}
+
+.navbar-brand:hover{
+    color: $navbar-brand-color;
+}
+
+.nav-link{
+    color: $nav-link-color;
+}
+
+.nav-link:hover{
+    color: $nav-link-hover-color;
+}
+
+.active{
+    color: white;
+}
+
+
+.carousel-item{
+    height: 500px;
+    
+}
+
+.carousel-texts {
+    color: black;
+}
+
+.carousel-texts-1 {
+    color: white;
+}
+
+.jumbotron {
+    
+    background-color: $bg-color;
+    opacity: 0.7;  
+}
+
+.jumbotron-inner-text {
+    color: white !important;
+}
+
+p.jumbotron-inner-text {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.horizontal {
+    height :2px;
+    background-color: $horizontal-line-color;
+    opacity: 0.5;
+}
+
+#sample-image {
+    width: 100%;
+}
+
+.jumbo-2 {
+    text-align: center;
+}
+
+
+.foot{
+    
+    background-color:$bg-color;
+    padding: 50px;
+}
+
+
+.foot-link{
+    text-decoration: none;
+    color: white;
+}
+
+.footi{
+    width: 3rem;
+    height: 3rem;
+}
+.foot-link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.profile-pic {
+    width: 220px;
+    height: 220px;
+}
+
+.table-data {
+    padding: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > * {
+      margin: 5px;
+    }
+  }
+  
+  .media {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+  }
+  
+  .layer {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 90%;
+    background: #FFF;
+    color: #151E3F;
+    transition: all 0.9s ease;
+    p {
+      transition: all 0.9s ease;
+      transform: scale(0.1)
+    }
+  }
+  
+  p {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing:1px;
+  }
+  
+  .media:hover .layer {
+    opacity: 0.8;
+    width: 90%;
+    transition: all 0.5s ease;
+    p {
+      transform: scale(1);
+      transition: all 0.9s ease;
+    }
+  }
+  
