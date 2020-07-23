@@ -1,0 +1,97 @@
+body {
+    background-image: url(/images/ocean.JPG);
+    
+    background-attachment: fixed;
+    color: white;
+}
+
+
+.navbar{
+    background-color: rgb(2, 2, 2);
+}
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-link{
+    color: rgb(80, 80, 80);
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.active{
+    color: white;
+}
+
+
+.carousel-item{
+    height: 500px;
+    
+}
+
+.carousel-texts {
+    color: black;
+}
+
+.carousel-texts-1 {
+    color: white;
+}
+
+.jumbotron {
+    
+    background-color: black;
+    opacity: 0.7;  
+}
+
+.jumbotron-inner-text {
+    color: white !important;
+}
+
+p.jumbotron-inner-text {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.horizontal {
+    height :2px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+#sample-image {
+    width: 100%;
+}
+
+.jumbo-2 {
+    text-align: center;
+}
+
+
+.foot{
+    
+    background-color:black;
+    padding: 50px;
+}
+
+
+.foot-link{
+    text-decoration: none;
+    color: white;
+}
+
+.footi{
+    width: 3rem;
+    height: 3rem;
+}
+.foot-link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
